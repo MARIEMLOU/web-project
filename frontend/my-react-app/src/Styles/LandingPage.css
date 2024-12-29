@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background-color: #000;
+  overflow-x: hidden;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+  width: 100vw;
+}
+
+.header h1 {
+  color: #fff;
+  font-size: 50px;
+  margin-top: 50px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 70px;
+  height: 70px;
+}
+
+.hero {
+  background: url("../assets/image.png") no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  color: #fff;
+  padding: 0 50px;
+}
+
+.hero-content {
+  font-size: 25px;
+  max-width: 500px;
+  text-align: left;
+  margin-top: -250px;
+}
+.hero-content h1 {
+  font-size: 50px;
+}
+.hero-content h1 span {
+  color: #ffd700;
+}
+
+.cta-button {
+  background: #ffd700;
+  border: none;
+  color: #000;
+  padding: 10px 20px;
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 200px;
+  height: 50px;
+}
+
+.features {
+  margin-top: -150px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px 20px;
+}
+
+.feature-card {
+  background: #222;
+  padding: 50px;
+  text-align: center;
+  border-radius: 15px;
+  width: 250px;
+  height: 250px;
+  margin-bottom: 200px;
+}
+
+.feature-card img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.feature-card h3 {
+  font-size: 20px;
+}
+
+.feature-card p {
+  font-size: 50px;
+  color: #ffd700;
+}
+
+.contact {
+  padding: 50px 20px;
+  background: #111;
+  display: flex;
+}
+.contact h2 {
+  margin-left: 20px;
+  color: #ffd700;
+}
+
+.contact form {
+  max-width: 400px;
+  margin-left: 50px;
+}
+
+.contact input,
+.contact textarea {
+  border-radius: 10px;
+  width: 150%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #444;
+  background: #222;
+  color: #fff;
+}
+
+.contact img {
+  margin-left: 500px;
+}
+
+.contact button {
+  width: 40%;
+  background: #ffd700;
+  border: none;
+  color: #000;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #000;
+}
+
+.footer img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  color: #777;
+}

@@ -1,0 +1,99 @@
+.container {
+  --margin-background-color: #000;
+
+  width: 1200px;
+  display: flex;
+  background-color: #000; /* Fond noir */
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: auto;
+  margin-bottom: 200px;
+}
+
+.view-coaches-button {
+  margin-top: 10px;
+  background-color: transparent;
+  border: 2px solid yellow;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.view-coaches-button:hover {
+  background-color: yellow;
+  color: black;
+}
+.sidebar {
+  flex: 1;
+  padding: 20px;
+  background-color: #1a1a1a;
+}
+
+.motivation-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.motivation-text h2 {
+  font-size: 1.5rem;
+}
+
+.motivation-text p {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.program {
+  flex: 2;
+  padding: 20px;
+}
+
+.days {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.day {
+  background-color: #444;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.day.active {
+  background-color: yellow;
+  color: black;
+}
+
+.day-program h3 {
+  margin-bottom: 20px;
+}
+
+.activity {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.activity img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.activity h4 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.activity p {
+  margin: 5px 0 0;
+  font-size: 1rem;
+}

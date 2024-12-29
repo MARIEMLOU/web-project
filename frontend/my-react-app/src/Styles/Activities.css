@@ -1,0 +1,265 @@
+.Sign {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  margin: 0;
+  color: white;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: black;
+  color: yellow;
+}
+
+.head .logo {
+  height: 50px;
+  width: 150px;
+  height: 150px;
+  margin-left: 20px;
+}
+
+.head nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 30px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.head nav a:hover {
+  text-decoration: underline;
+}
+
+.mm {
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 50px;
+  font-size: 59px;
+  margin-left: 0px;
+}
+
+.actbutton {
+  background: rgb(255, 196, 0);
+  border: none;
+  color: #000;
+  padding: 10px 20px;
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 200px;
+  height: 50px;
+}
+
+.actbutton:hover {
+  transform: scale(1.1); /* Increase the button size by 10% */
+  background-color: #ffaa00; /* Change background color on hover */
+}
+
+.activities-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  gap: 40px; /* Space between the items */
+  justify-items: center; /* Center items horizontally */
+}
+
+.activity-image {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.duration {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: yellow;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.activity-card h3 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+/* Wrapper for all fitness programs */
+.fitness-programs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+/* Individual fitness program card */
+.fitness-program {
+  display: flex;
+  flex-direction: column;
+  background-color: #111;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 350px;
+  color: white;
+}
+
+/* Image container for each program */
+.fitness-program-image img {
+  width: 100%;
+  height: auto;
+}
+
+/* Details section of the program */
+.fitness-program-details {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Title of the fitness program */
+.fitness-program-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+/* Description of the fitness program */
+.fitness-program-description {
+  font-size: 0.9em;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Button to view coaches */
+.fitness-program-button {
+  padding: 10px 20px;
+  background-color: yellow;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9em;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.fitness-program-button:hover {
+  background-color: gold;
+}
+
+/* Coaches list container */
+.fitness-program-coaches {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Individual coach card */
+.fitness-coach {
+  background-color: #222;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 0.9em;
+  color: #fff;
+}
+
+/* Name inside coach card */
+.fitness-coach-name {
+  font-weight: bold;
+}
+
+/* Detailed Activity Section */
+.detailed-activity {
+  display: flex;
+  flex-direction: row;
+  /*align-items: center;
+  justify-content: space-between;*/
+  background-color: black; /* Match the dark background */
+  color: white; /* Text color for contrast */
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.detailed-image {
+  max-width: 350px;
+  max-height: 400px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8); /* Add shadow to the image */
+}
+
+.detAct {
+  margin: 10px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.detailed-activity h2 {
+  font-size: 2rem;
+  color: yellow; /* Highlight the title in yellow */
+}
+
+.detailed-activity p {
+  max-width: 500px;
+  font-size: 30px;
+  line-height: 1.5;
+}
+
+.view-coaches-button {
+  margin-top: 20px;
+  background-color: transparent;
+  border: 2px solid yellow;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.view-coaches-button:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.Coaches {
+  margin-left: 200px;
+
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 600px;
+}
+
+.Coaches li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.Coaches li img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.Coaches li span {
+  margin: 10px 0;
+  /*max-width: 200px;*/
+  font-size: 30px;
+  margin-left: 10px;
+}

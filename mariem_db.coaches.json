@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "6758951c120efeb5420555e4"
+  },
+  "name": "Fathi BELMKADEM",
+  "specialty": "Strength Training",
+  "relatedActivity": {
+    "$oid": "675893149d3b2018c8b3a194"
+  },
+  "__v": 0,
+  "path": "backend\\images\\CrossFit.png"
+},
+{
+  "_id": {
+    "$oid": "6758954f120efeb5420555e6"
+  },
+  "name": "Mariem LOUHICHI",
+  "specialty": "Strength Training",
+  "relatedActivity": {
+    "$oid": "675893379d3b2018c8b3a196"
+  },
+  "__v": 0,
+  "path": "backend\\images\\Coach2.png"
+}]

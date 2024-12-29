@@ -1,0 +1,101 @@
+/* index.css */
+:root {
+  --margin-background-color: #000; /* Change to your desired color */
+  background-color: #000; /* Background color for the root element */
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: black;
+  color: yellow;
+}
+
+.head .logo {
+  height: 50px;
+  width: 150px;
+  height: 150px;
+  margin-left: 20px;
+}
+
+.head nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 30px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.head nav a:hover {
+  text-decoration: underline;
+}
+
+.activity-card {
+  background-color: #222;
+  border-radius: 15px;
+  padding: 10px;
+  width: 400px;
+  text-align: center;
+  position: relative;
+  height: 500px;
+  margin-bottom: 100px;
+}
+
+.contact {
+  padding: 50px 20px;
+  background: #111;
+  display: flex;
+}
+.contact h2 {
+  margin-left: 20px;
+  color: #ffd700;
+}
+
+.contact form {
+  max-width: 400px;
+  margin-left: 50px;
+}
+
+.contact input,
+.contact textarea {
+  border-radius: 10px;
+  width: 150%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #444;
+  background: #222;
+  color: #fff;
+}
+
+.contact img {
+  margin-left: 500px;
+}
+
+.contact button {
+  width: 40%;
+  background: #ffd700;
+  border: none;
+  color: #000;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #000;
+}
+
+.footer img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  color: #777;
+}

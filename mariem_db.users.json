@@ -1,0 +1,14 @@
+[{
+  "_id": {
+    "$oid": "67588d9a70f7a9301798c525"
+  },
+  "name": "mariem",
+  "email": "mariem@test",
+  "password": "$2b$10$ppepjYxXDiEpkR01nbxjjuxAyGUk/muWMjGOWhOsS/r.tcIenNa0O",
+  "phone": "123-456-7890",
+  "joinDate": {
+    "$date": "2024-12-10T18:51:06.295Z"
+  },
+  "__v": 0,
+  "path": "backend\\images\\Coach2.png"
+}]

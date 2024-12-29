@@ -1,0 +1,54 @@
+[{
+  "_id": {
+    "$oid": "675893149d3b2018c8b3a194"
+  },
+  "name": "CrossFit",
+  "description": "CrossFit is a high-intensity fitness program incorporating elements from several sports and types of exercise.",
+  "__v": 0,
+  "path": "backend\\images\\CrossFit.png"
+},
+{
+  "_id": {
+    "$oid": "675893379d3b2018c8b3a196"
+  },
+  "name": "Yoga",
+  "description": "Yoga is a group of physical, mental, and spiritual practices aimed at improving health and well-being.",
+  "__v": 0,
+  "path": "backend\\images\\Yoga.png"
+},
+{
+  "_id": {
+    "$oid": "6758934b9d3b2018c8b3a198"
+  },
+  "name": "RPM",
+  "description": "RPM is an indoor cycling workout where you ride to the rhythm of powerful music.",
+  "__v": 0,
+  "path": "backend\\images\\RPM.png"
+},
+{
+  "_id": {
+    "$oid": "6758936c9d3b2018c8b3a19a"
+  },
+  "name": "Kickboxing",
+  "description": "Kickboxing is a high-energy martial arts workout that burns calories and builds strength.",
+  "__v": 0,
+  "path": "backend\\images\\Kick.png"
+},
+{
+  "_id": {
+    "$oid": "675893909d3b2018c8b3a19c"
+  },
+  "name": "PILATES",
+  "description": "Pilates focuses on core strength, flexibility, and mindful movement.",
+  "__v": 0,
+  "path": "backend\\images\\pilates.png"
+},
+{
+  "_id": {
+    "$oid": "675893af9d3b2018c8b3a19e"
+  },
+  "name": "Afro'Dance",
+  "description": "Afro'Dance is a dynamic dance style inspired by African music and movements.",
+  "__v": 0,
+  "path": "backend\\images\\afro.png"
+}]
